@@ -51,6 +51,12 @@ namespace DSATests
             return result;
         }
     }
+
+
+    // SOLUTION: This is basically to check if a value X = (target - element) exists in the array.
+    // Create an empty Dictionary<int, int> to keep track of visited elements. (value, index)
+    // Use dictionary .TryGetValue method to if the value X on the next iteration exists in the dictionary.
+    // if the dictionary has the value X then return index of X and the index of current element in the iteration.
 }
 
 
