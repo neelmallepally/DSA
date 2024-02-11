@@ -2,7 +2,7 @@
 {
     public class BinarySearch
     {
-
+        // TEST
         public static IEnumerable<object[]> GetData()
         {
             yield return new object[] { new[] { 1, 2, 3, 4, 5 }, 3, 3 };
