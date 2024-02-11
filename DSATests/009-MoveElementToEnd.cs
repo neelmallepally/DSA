@@ -8,7 +8,8 @@ namespace DSATests
 {
     public class _009_MEDIUM_MoveElementToEnd
     {
-
+        // PROBLEM: Given an array of numbers and a number N, move all the numbers that match N in the array to the end of it.
+        // Do not create a new array. Instead use same array.
         public static IEnumerable<object[]> GetData()
         {
             yield return new object[] {
